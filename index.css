@@ -1,6 +1,7 @@
 * {
   width: 100%;
   margin: auto;
+  font-family: "Mont", sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,6 +17,9 @@
 
 .header h1 {
   color: white;
+  font-weight: 300;
+
+  font-style: normal;
 }
 
 .search {
@@ -59,7 +63,7 @@ section {
 
 section span {
   color: white;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 26px;
 }
 
@@ -69,8 +73,8 @@ section p {
 }
 
 section img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   position: relative;
   top: 4px;
 }
@@ -82,8 +86,6 @@ section img {
 }
 
 .user {
-  /* position: relative;
-  right: 50px; */
   color: #cad1da;
   padding: 15px;
   width: 55px;
@@ -92,8 +94,6 @@ section img {
 }
 
 .cart {
-  /* position: relative;
-  right: 90px; */
   color: #2aefc3;
   padding: 15px;
   width: 55px;
