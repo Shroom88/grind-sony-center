@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 24px 24px;
-  background-color: #29323d;
+  background-color: #161b21;
   width: 100%;
 }
 
@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   color: #5d656f;
-  border-bottom: solid 2px #5d656f;
+  border-bottom: solid 2px #29323d;
 }
 
 .search img {
@@ -35,7 +35,7 @@
 }
 
 .header input[type="text"] {
-  background-color: #29323d;
+  background-color: #161b21;
 
   padding: 6px;
   margin: 0;
@@ -45,7 +45,7 @@
 }
 
 .header button {
-  background-color: #29323d;
+  background-color: #161b21;
   width: 32px;
   height: 32px;
   padding: 0;
@@ -91,6 +91,7 @@ section img {
   width: 55px;
   border: solid 2px #cad1da;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .cart {
@@ -99,9 +100,38 @@ section img {
   width: 55px;
   border: solid 2px #2aefc3;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .icon-btn-img {
   width: 20px;
   height: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 17px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  height: 60px;
+  background-color: #29323d;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.navbar img {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar span {
+  position: relative;
+  bottom: 3px;
 }
